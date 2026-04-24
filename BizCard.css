@@ -1,0 +1,41 @@
+body {
+  margin: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  width: 400px;
+  /* height: 200px;*/
+  display: flex;
+  padding: 20px;
+  /* 
+    Challenge:
+    Replace the two margin properties with a 
+    single margin shorthand.
+    */
+  margin: 20px auto;
+  /*margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+
+  /* flex-direction: column;*/
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  border-bottom: 5px solid #a4aaa6;
+  background-color: #ffe8b9;
+  color: #5c8299;
+}
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20%;
+}
+.dotted-border {
+  border: 2px dotted rgb(98, 72, 214);
+  border-radius: 20%;
+  padding: 5px;
+}
